@@ -91,10 +91,17 @@
 
 @media (max-width: 991px) {
   .slick-slider{
+    margin: 0 -2em;
+  }
+
+}
+@media (max-width: 480px) {
+  .slick-slider{
     margin: 0 -1em;
   }
 
 }
+
 
 
 .block-poster{

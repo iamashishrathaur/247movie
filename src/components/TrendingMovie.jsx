@@ -91,7 +91,7 @@ function UnevenSetsInfinite() {
                 <a  href="#" className="poster-overlay rounded-xl">
                   <img
                     src={data.image}
-                    className="poster_img rounded-s px-2 2xl:px-1 xl:px-0.5 sm:px-0 w-full max-w-xs md:max-w-md lg:max-w-lg"
+                    className="poster_img rounded-s "
                     alt="Movie Poster"
                   />
                 </a>
