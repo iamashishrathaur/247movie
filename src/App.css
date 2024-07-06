@@ -35,6 +35,17 @@
     box-shadow: none;
 }
 
+
+/* Search Box */
+
+.search-field{
+  box-shadow: #141314;
+  border: 1px solid #262525;
+  display: flex;
+  border-radius: 0.1875em;
+  background: #141314;
+  color: white;
+}
 /* Slider main */
 
 .slider_main_container{
