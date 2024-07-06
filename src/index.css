@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        background-color: #000;
+    }
+    a{
+        outline: none;
+        cursor: auto;
+    }
+}
+/* .slick-slide > div{
+    margin: 0 10px;
+} */
+
+.slick-slide{
+    padding: 0 .9375em;
+    margin-bottom: 1.875em;
+}
+
+@media (max-width:991px){
+    .slick-slide{
+    padding: 0 .4687em;
+ }
+}
+
+/* .slick-slider .slick-track{
+    margin-bottom: 6.25em;
+} */
