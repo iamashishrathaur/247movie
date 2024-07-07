@@ -217,6 +217,7 @@ button.custom-prev-arrow:hover, button.custom-next-arrow:hover {
 @media (min-width: 480px) {
   .new_movie_card {
     width: 50%; /* 2 cards per row */
+    padding: 0;
   }
 }
 
