@@ -4,6 +4,8 @@
 
 @layer base{
     body{
+        overflow: visible;
+        overflow-x: hidden;
         background-color: #000;
     }
     a{

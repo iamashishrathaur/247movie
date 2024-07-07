@@ -18,7 +18,7 @@ const NewMovie = () => {
           {movieImages.map((src, index) => (
              <div key={index} className="new_movie_card new_movie_block relative">
              <div className="rounded-lg p-2 md:p-3 lg:p-4">
-               <img className="rounded-sm w-full new_movie_img" src={src} alt={'movie'} />
+               <img className="rounded-md lg:rounded-sm w-full new_movie_img" src={src} alt={'movie'} />
                <CardDescription />
              </div>
            </div>
