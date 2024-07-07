@@ -103,7 +103,7 @@ function TrendingMovie() {
   }), [currentSlide]);
 
   return (
-    <div className="slider_main_container">
+    <div className="slider_main_container mt-10">
       <div className="text-white mb-4">
         <div className="top_ten_title mb-6 px-0 sm:px-1 text-xl">
           <h5 className="main_title font-semibold">Top 10 Trending Movies</h5>

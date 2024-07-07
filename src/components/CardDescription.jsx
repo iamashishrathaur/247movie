@@ -11,9 +11,6 @@ const CardDescription = () => {
             </a>
           </h5>
           <span className="movie-time-text font-thin text-[10px] ">2H : 6Mins</span>
-          {/* <div className="movie-time d-flex align-items-center my-2">
-            <span className="movie-time-text font-normal">2H : 6Mins</span>
-          </div> */}
         </div>
       </div>
     </div>

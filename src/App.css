@@ -206,6 +206,37 @@ button.custom-prev-arrow:hover, button.custom-next-arrow:hover {
 
 /* New Movie */
 
+.new_movie_card {
+  width: 50%; /* Default for small screens */
+  padding: 0.5rem;
+}
+
+@media (min-width: 480px) {
+  .new_movie_card {
+    width: 50%; /* 2 cards per row */
+  }
+}
+
+@media (min-width: 768px) {
+  .new_movie_card {
+    width: 33.33%; /* 3 cards per row */
+  }
+}
+
+@media (min-width: 1200px) {
+  .new_movie_card {
+    width: 20%; /* 5 cards per row */
+  }
+}
+
+@media (min-width: 1365px) {
+  .new_movie_card {
+    width: 16.66%; /* 6 cards per row */
+  }
+}
+
+
+
 .new_movie_block{
     backface-visibility: hidden;
     transform: translate3d(0, 0, 0);
