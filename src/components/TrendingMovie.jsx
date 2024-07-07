@@ -104,9 +104,9 @@ function TrendingMovie() {
 
   return (
     <div className="slider_main_container mt-10">
-      <div className="text-white mb-4">
+      <div className="text-white mb-4 ">
         <div className="top_ten_title mb-6 px-0 sm:px-1 text-xl">
-          <h5 className="main_title font-semibold">Top 10 Trending Movies</h5>
+          <h5 className="main_title font-semibold text-base sm:text-lg lg:text-xl">Top 10 Trending Movies</h5>
         </div>
         <Slider {...settings}>
           {movies.map((data, index) => (
