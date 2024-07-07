@@ -44,7 +44,7 @@ NextArrow.displayName = 'NextArrow';
 
 const slidesToShow = 6;
 
-function UnevenSetsInfinite() {
+function TrendingMovie() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const settings = useMemo(() => ({
@@ -129,4 +129,4 @@ function UnevenSetsInfinite() {
   );
 }
 
-export default UnevenSetsInfinite;
+export default TrendingMovie;

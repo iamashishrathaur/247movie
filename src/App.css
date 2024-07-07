@@ -51,8 +51,14 @@
 .slider_main_container{
   padding: 0em 6.25em 0em 6.25em;
 }
+.new_movie_container{
+  padding: 0em 6.25em 0em 6.25em;
+}
 @media (max-width:767px){
   .slider_main_container {
+    padding: 0em 0.938em 0em 0.938em;
+  }
+  .new_movie_container{
     padding: 0em 0.938em 0em 0.938em;
   }
 }
@@ -196,4 +202,59 @@ button.custom-prev-arrow:hover, button.custom-next-arrow:hover {
   border: .0625em solid #e50914;
 }
 
+
+
+/* New Movie */
+
+.new_movie_block{
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    transition: all .6s ease 0s;
+    /* background: linear-gradient(0deg,#0c0b11 8.71%,rgba(12,11,17,0) 72.11%); */
+}
+
+
+@media (min-width: 960px) {
+  .new_movie_block:hover {
+    transition-delay: .2s;
+  z-index: 99;
+  transform: scale3d(1.1, 1.1, 1) translate3d(0, 0, 0) perspective(31.25em);
+  transform-origin: 50% 50%;
+  transition: all .6s ease 0s;
+  margin-top: -1.875em;
+  background: #141314;
+  }
+}
+
+.new_movie_img{
+  mix-blend-mode: overlay;
+}
+
+.new_movie_block:hover .new_movie_img{
+  mix-blend-mode: inherit;
+}
+
+
+/* Card Description */
+.card-description{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  right: 0;
+  transition: all .4s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (min-width: 960px) {
+  .new_movie_block:hover .card-description {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.2s;
+    z-index: 9;
+  }
+}
 
