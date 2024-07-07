@@ -6,16 +6,16 @@ import movieBanner from '../assets/movie-banner-1-sm.webp';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const movies = [
-  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-07.webp', link: "/" },
-  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-06.webp', link: "/" },
-  { title: "John Wick", image: movieBanner, link: "/" },
-  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-05.webp', link: "/" },
-  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-04.webp', link: "/" },
   { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-01.webp', link: "/" },
-  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/home1-sm.webp', link: "/" },
   { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-02.webp', link: "/" },
   { title: "John Wick", image: movieBanner, link: "/" },
-  { title: "John Wick", image: movieBanner, link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-03.webp', link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-04.webp', link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-05.webp', link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/home1-sm.webp', link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-06.webp', link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-07.webp', link: "/" },
+  { title: "John Wick", image: 'https://wordpress.iqonic.design/product/wp/streamit/wp-content/uploads/2023/10/r-01.webp', link: "/" },
 ];
 
 const PreviousArrow = React.memo(function PreviousArrow({ onClick, currentSlide }) {
