@@ -13,7 +13,7 @@ const NewMovie = () => {
   return (
     <div className='new_movie_container text-white mt-16 mb-96'>
       <div className='font-semibold mb-1 px-0 sm:px-1 text-xl'>New Movie 2024</div>
-      <div className="container justify-center">
+      <div className="w-full justify-center">
         <div className="flex flex-wrap justify-between -mx-5">
           {movieImages.map((src, index) => (
              <div key={index} className="new_movie_card new_movie_block relative">
